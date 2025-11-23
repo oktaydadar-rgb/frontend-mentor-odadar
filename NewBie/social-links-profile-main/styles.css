@@ -15,3 +15,27 @@
 
   font-display: swap;
 }
+
+:root {
+  /* colors    */
+  --clr-grey-900: #141414;
+  --clr-grey-800: #1f1f1f;
+  --clr-grey-700: #333333;
+  --clr-green: #c4f82a;
+  --clr-white: #ffffff;
+  /* fonts */
+  --ff-Inter: "Inter", system-ui, sans-serif;
+  /* font sizes */
+  --fs-xl-24px: 1.5rem;
+  --fs-sm--14px: 0.875rem;
+  /*font weight*/
+  --fw-regular: 400;
+  --fw-bold: 700;
+  /*Spacing*/
+  --sp-40px: 2.5rem;
+  --sp-24px: 1.5rem;
+  --sp-16px: 1rem;
+  --sp-12px: 0.75rem;
+  --sp-8px: 0.5rem;
+  --sp-4px: 0.25rem;
+}
