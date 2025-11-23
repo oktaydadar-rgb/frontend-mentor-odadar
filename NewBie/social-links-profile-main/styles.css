@@ -58,6 +58,7 @@ html {
   font-family: var(--ff-Inter);
   font-size: var(--fs-sm--14px);
   letter-spacing: 0px;
+  text-wrap: balance;
 }
 
 /* 3. Enable keyword animations */
@@ -120,6 +121,13 @@ h4,
 h5,
 h6 {
   text-wrap: balance;
+}
+
+.profile-card {
+  max-width: 384px;
+  border-radius: 12px;
+  padding: var(--sp-40px);
+  background-color: var(--clr-grey-800);
 }
 
 .attribution {
