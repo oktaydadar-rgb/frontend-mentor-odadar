@@ -130,6 +130,12 @@ h6 {
   background-color: var(--clr-grey-800);
 }
 
+.profile-card .profile-image {
+  border-radius: 999px;
+  margin-inline: 108px;
+  margin-bottom: var(--sp-24px);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
