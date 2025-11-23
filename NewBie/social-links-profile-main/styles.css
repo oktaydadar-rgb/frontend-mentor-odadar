@@ -52,6 +52,14 @@
   margin: 0;
 }
 
+html {
+  background-color: var(--clr-grey-900);
+  color: var(--clr-white);
+  font-family: var(--ff-Inter);
+  font-size: var(--fs-sm--14px);
+  letter-spacing: 0px;
+}
+
 /* 3. Enable keyword animations */
 @media (prefers-reduced-motion: no-preference) {
   html {
