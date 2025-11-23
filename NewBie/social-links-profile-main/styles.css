@@ -136,6 +136,26 @@ h6 {
   margin-bottom: var(--sp-24px);
 }
 
+.profile-card .profile-info {
+  margin-bottom: var(--sp-24px);
+}
+
+.profile-card .profile-name {
+  text-align: center;
+  font-size: var(--fs-xl-24px);
+  font-weight: var(--fw-bold);
+  margin-bottom: var(--sp-4px);
+}
+
+.profile-card .profile-location {
+  color: var(--clr-green);
+  margin-bottom: var(--sp-24px);
+}
+
+/* .profile-card .profile-bio {
+  font-weight: var(--fw-bold);
+} */
+
 .attribution {
   font-size: 11px;
   text-align: center;
