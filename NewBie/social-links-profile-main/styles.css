@@ -50,6 +50,7 @@
 /* 2. Remove default margin */
 * {
   margin: 0;
+  text-align: center;
 }
 
 html {
@@ -172,6 +173,14 @@ h6 {
 
   display: flex;
   text-decoration: none;
+
+  cursor: pointer;
+
+  transition: background-color 0.2s ease, color 0.2s ease;
+  &:hover {
+    background-color: var(--clr-green);
+    color: var(--clr-grey-900);
+  }
 
   align-items: center;
   justify-content: center;
