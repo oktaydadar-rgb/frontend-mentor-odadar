@@ -129,6 +129,10 @@ h6 {
   border-radius: 12px;
   padding: var(--sp-40px);
   background-color: var(--clr-grey-800);
+
+  @media screen and (max-width: 30rem) {
+    margin-inline: var(--sp-24px);
+  }
 }
 
 .profile-card .profile-image {
