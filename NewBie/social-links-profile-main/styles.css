@@ -156,6 +156,27 @@ h6 {
   font-weight: var(--fw-bold);
 } */
 
+.profile-card .links {
+  display: flex;
+  flex-direction: column;
+
+  gap: var(--sp-16px);
+}
+
+.profile-card .links .link-button {
+  height: 45px;
+  background-color: var(--clr-grey-700);
+  border-radius: 8px;
+  color: var(--clr-white);
+  font-weight: var(--fw-bold);
+
+  display: flex;
+  text-decoration: none;
+
+  align-items: center;
+  justify-content: center;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
